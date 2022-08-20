@@ -1,0 +1,114 @@
+Javascript Review
+
+Number and Strings
+2
+
+Strings
+" Hello world"
+
+Variables
+
+var name = "Anna"
+
+name
+
+name.length
+
+name.toUpperCase()
+
+var num = 5
+
+//convert a string to a Number
+
+parseInt("123")
+
+Arithemetici Operation
+
+
+Adding, sub,mul, div, modulus(%)
+
+"Hi" + "Friend"
+
++ sign for String concatenation
+
+
+Booleans
+
+0 or 1
+True or False
+
+Other types
+
+null or undefined
+
+//declaring
+var test
+
+//initializing
+var test=0
+
+Conditional Programming
+if(3>2){
+	console.log("Happy")
+}
+else{
+	console.log("Not Happy")
+}
+
+Switch 
+
+
+var name = "My name";
+
+switch(name) {  
+case  "My name":  
+console.log("Condition 1");  
+break;  
+case  "my Name":  
+console.log("Condition 2");  
+break;  
+default:  
+console.log("None of the conditions are true");
+}
+
+Loop
+for(var i=0; i<=5; i++){
+	console.log(i)
+}
+
+while
+
+var i =0
+while (i<=5){
+	console.log(i)
+	i=i+1
+}
+
+Array
+
+var friends = ["friend1","friend2","friend3"]
+
+friends.length
+
+friends.push("friend4")
+
+friends.pop();
+
+for(var index in friends){
+	console.log(friends[index])
+}
+
+//own function
+function circumference(radius){
+	var circumference = 2 * 3.14 * radius
+	return circumference
+}
+
+//Object oriented Programming
+var paddle = new Object();
+
+paddle.length = 60
+
+paddle.showLength = function(){
+	console.log(paddle.length);
+}
